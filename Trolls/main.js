@@ -44,6 +44,8 @@ function main (canvas) {
 function drawMenu () {
   // Split this part up so it could be recalled without re-initializing TE
   te.clear()
+  gg = false
+  ggWin = false
 
   te.wmove(5, 5)
   te.waddstr('T R O L L S', 1, true)
